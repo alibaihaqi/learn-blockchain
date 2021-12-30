@@ -1,0 +1,17 @@
+{
+  "name": "sf-chain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fadli Al Baihaqi",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev-test": "nodemon dev-test"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
