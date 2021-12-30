@@ -12,8 +12,10 @@
     "start": "node ./app"
   },
   "devDependencies": {
+    "@types/elliptic": "^6.4.14",
     "@types/express": "^4.17.13",
     "@types/jest": "^27.0.3",
+    "@types/uuid": "^8.3.3",
     "@types/ws": "^8.2.2",
     "jest": "^27.4.5",
     "nodemon": "^2.0.15"
@@ -22,6 +24,7 @@
     "crypto-js": "^4.1.1",
     "elliptic": "^6.5.4",
     "express": "^4.17.2",
+    "uuid": "^8.3.2",
     "ws": "^8.4.0"
   }
 }
