@@ -23,7 +23,7 @@ describe('Transaction', () => {
 
   it('inputs the balance of the wallet', () => {
     expect(transaction.input.amount).toEqual(wallet.balance)
-  })
+  });
 
   it('validates a valid transaction', () => {
     expect(Transaction.verifyTransaction(transaction)).toEqual(true);
