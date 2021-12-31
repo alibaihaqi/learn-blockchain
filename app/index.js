@@ -8,8 +8,8 @@ const HTTP_PORT = process.env.HTTP_PORT || '3001';
 
 const app = express();
 const bc = new Blockchain();
-const p2pServer = new P2pServer(bc);
 const tp = new TransactionPool();
+const p2pServer = new P2pServer(bc, tp);
 const wallet = new Wallet();
 
 app.use(express.json())
