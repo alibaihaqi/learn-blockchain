@@ -29,7 +29,10 @@ class Miner {
     // clear the transaction pool
     this.transactionPool.clear();
 
-    // TODO - broadcast to every miner to clear their transaction pools
+    // broadcast to every miner to clear their transaction pools
+    this.p2pServer.broadcastClearTransactions();
+
+    return block;
   }
 };
 
